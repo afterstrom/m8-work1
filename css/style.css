@@ -1,11 +1,7 @@
 body {
-  background-image: url('../img/pexels-shlok-230964119-36230651.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: white;
+  background-color: black;
 }
-
 header {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
@@ -28,4 +24,8 @@ footer {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   text-align: center;
+}
+.images {
+  display: flex;
+  gap: 10px;
 }
