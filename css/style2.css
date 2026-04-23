@@ -1,0 +1,42 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#container .main {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    padding: 20px;
+    border: 1px solid #3da946;
+}
+
+#container .test {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .odi {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .t20 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
