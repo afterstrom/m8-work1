@@ -16,7 +16,7 @@ main {
 }
 
 nav {
-  background-color: rgba(50, 120, 94, 0.668);
+  background-color: rgba(50, 120, 94, 0.641);
   padding: 10px;
 }
 
@@ -27,5 +27,19 @@ footer {
 }
 .images {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+}
+nav button {
+  padding: 10px 20px;
+  margin: 30px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: rgb(34, 240, 7);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #08e600;
 }
